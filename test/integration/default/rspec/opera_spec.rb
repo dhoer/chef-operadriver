@@ -8,7 +8,7 @@ unless MAC
       if WINDOWS
         binary = 'C:\Program Files (x86)\Opera\launcher.exe'
       else
-        binary =  '/usr/bin/opera'
+        binary = '/usr/bin/opera'
       end
       caps[:chromeOptions] = { binary: binary }
       caps[:browserName] = 'operablink'
